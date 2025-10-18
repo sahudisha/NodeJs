@@ -13,8 +13,11 @@ const fs = require('fs');
 //     console.log(err, data);
 // })
 
-//readFileSync will block the thread
+//readFileSync will block the thread here if encoding is not mentioned then we need to use toString to get data in correct form
 // const a = fs.readFileSync('file1.txt','utf-8')
+// console.log(a)
+
+// const a = fs.readFileSync('file1.txt').toString()
 // console.log(a)
 
 // fs.writeFile('file2.txt','This is an Example for fsWriteFile',()=>{
