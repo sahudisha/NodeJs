@@ -1,6 +1,6 @@
 ## Basic Setup and Node Js Info
 
-#### NPM  -  Used to Install Node Packages eg. mpn i @angular/cli
+#### NPM  -  Used to Install Node Packages eg. npm i @angular/cli
 
 ### package.JSON - It defines the packages/dependencies we installed
 
